@@ -1,0 +1,54 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/libraries/PlatiniumLibrary.sol": "PlatiniumLibrary"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/interfaces/IPlatiniumPair.sol": {
+			"keccak256": "0x9fd7f540431c1324af0f61107d51bc1937ef24e028e9a63c90d277f2d6f009ec",
+			"urls": [
+				"bzz-raw://659fc459beb37b19e2e782cb25e8b52a0146100fc4f56a0c2a29f1d999d9dfaa",
+				"dweb:/ipfs/QmQgc4uHsDuWdKpHiwbSSo8j2XtpG3sRvY9vxYwrSsxe4b"
+			]
+		},
+		"contracts/libraries/PlatiniumLibrary.sol": {
+			"keccak256": "0x02f4c956b8f6fb836ee4867f538ff20041cea00c2182d35986f0f0de2be5e17a",
+			"urls": [
+				"bzz-raw://41ebc45cf71241b10e30b47ea959267d048a1bb245db82e1347f2acc0c9af798",
+				"dweb:/ipfs/QmZqPuNdSuB8sYUw962anTFzz3DfnQ4j2tAfDoyMNMgdfk"
+			]
+		},
+		"contracts/libraries/SafeMath.sol": {
+			"keccak256": "0x977f38b601109ee7a0c1b70a32e08b7aecf5b4672bdea39fa6b7fec810943b80",
+			"urls": [
+				"bzz-raw://50296b94e299cd690f4a7966a93ac6ac58128080b0a14fdb1c2e07d71b50930c",
+				"dweb:/ipfs/QmSCqtcNbmcXUekQk2NYGDQcWt34sASe6ru1v2FLBX9coc"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amountTokenMin",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amountETHMin",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "deadline",
+						"type": "uint256"
+					}
+				],
+				"name": "migrate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/interfaces/IPancakeMigrator.sol": "IPlatiniumMigrator"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/interfaces/IPancakeMigrator.sol": {
+			"keccak256": "0x23ffc5949be6d85780ad91eefb88f911ffde0403a292956ee033a9e4819fbba7",
+			"urls": [
+				"bzz-raw://f3f7f4feed4a6aeb2d9796a1398bcee77b77bd986ff454f9fbbf67cb8a149290",
+				"dweb:/ipfs/QmaULn1DnTDiqvDZbxbivDdKK5DtaEyVTdSbRxG2s2J2AP"
+			]
+		}
+	},
+	"version": 1
+}
